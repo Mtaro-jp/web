@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ワイルズ闘技場攻略</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>ワイルズ闘技場攻略</h1>
+            <nav class="weapon-nav">
+                <div class="weapon-grid">
+                    <div class="weapon-item active" data-weapon="greatsword">
+                        <div class="weapon-icon">
+                            <img src="./src/images/greatsword.png" alt="大剣">
+                        </div>
+                        <span>大剣</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="longsword">
+                        <div class="weapon-icon">
+                            <img src="./src/images/longsword.png" alt="太刀">
+                        </div>
+                        <span>太刀</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="sword-shield">
+                        <div class="weapon-icon">
+                            <img src="./src/images/sword-shield.png" alt="片手剣">
+                        </div>
+                        <span>片手剣</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="dual-blades">
+                        <div class="weapon-icon">
+                            <img src="./src/images/dual-blades.png" alt="双剣">
+                        </div>
+                        <span>双剣</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="hammer">
+                        <div class="weapon-icon">
+                            <img src="./src/images/hammer.png" alt="ハンマー">
+                        </div>
+                        <span>ハンマー</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="hunting-horn">
+                        <div class="weapon-icon">
+                            <img src="./src/images/hunting-horn.png" alt="狩猟笛">
+                        </div>
+                        <span>狩猟笛</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="lance">
+                        <div class="weapon-icon">
+                            <img src="./src/images/lance.png" alt="ランス">
+                        </div>
+                        <span>ランス</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="gunlance">
+                        <div class="weapon-icon">
+                            <img src="./src/images/gunlance.png" alt="ガンランス">
+                        </div>
+                        <span>ガンランス</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="switch-axe">
+                        <div class="weapon-icon">
+                            <img src="./src/images/switch-axe.png" alt="スラッシュアックス">
+                        </div>
+                        <span>スラッシュアックス</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="charge-blade">
+                        <div class="weapon-icon">
+                            <img src="./src/images/charge-blade.png" alt="チャージアックス">
+                        </div>
+                        <span>チャージアックス</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="insect-glaive">
+                        <div class="weapon-icon">
+                            <img src="./src/images/insect-glaive.png" alt="操虫棍">
+                        </div>
+                        <span>操虫棍</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="light-bowgun">
+                        <div class="weapon-icon">
+                            <img src="./src/images/light-bowgun.png" alt="ライトボウガン">
+                        </div>
+                        <span>ライトボウガン</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="heavy-bowgun">
+                        <div class="weapon-icon">
+                            <img src="./src/images/heavy-bowgun.png" alt="ヘビィボウガン">
+                        </div>
+                        <span>ヘビィボウガン</span>
+                    </div>
+                    <div class="weapon-item" data-weapon="bow">
+                        <div class="weapon-icon">
+                            <img src="./src/images/bow.png" alt="弓">
+                        </div>
+                        <span>弓</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="weapon-section active" id="greatsword">
+            <h2 class="weapon-title">大剣</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>真・蓄力斬り</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 1位</span>
+                </div>
+                <p class="points">
+                    モンスターの硬直時に使用する最強の技。タイミングを合わせて3段階の蓄力を行い、
+                    最大火力を叩き込むことが重要です。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="longsword">
+            <h2 class="weapon-title">太刀</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>居合抜き</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 2位</span>
+                </div>
+                <p class="points">
+                    モンスターの攻撃を予測して居合を決めることで、高いダメージと
+                    気刃ゲージの上昇が期待できます。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="sword-shield">
+            <h2 class="weapon-title">片手剣</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>ハイパーラッシュ</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 3位</span>
+                </div>
+                <p class="points">
+                    素早い連続攻撃で高いDPSを叩き出せる。ガードとの組み合わせで
+                    安全に立ち回ることができます。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="dual-blades">
+            <h2 class="weapon-title">双剣</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>鬼人化乱舞</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 4位</span>
+                </div>
+                <p class="points">
+                    鬼人化状態での連続攻撃は圧倒的な火力を誇ります。
+                    スタミナ管理が重要です。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="hammer">
+            <h2 class="weapon-title">ハンマー</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>溜め攻撃</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 5位</span>
+                </div>
+                <p class="points">
+                    頭部を狙った溜め攻撃でスタン値を蓄積。
+                    チャンスを作り出して大ダメージを狙います。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="hunting-horn">
+            <h2 class="weapon-title">狩猟笛</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>演奏攻撃</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 6位</span>
+                </div>
+                <p class="points">
+                    旋律効果で味方を強化しながら、
+                    演奏攻撃で安定したダメージを与えます。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="lance">
+            <h2 class="weapon-title">ランス</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>カウンター突き</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 7位</span>
+                </div>
+                <p class="points">
+                    強力なガード性能とカウンター攻撃で、
+                    安全に立ち回りながら攻撃機会を作り出します。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="gunlance">
+            <h2 class="weapon-title">ガンランス</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>フルバースト</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 8位</span>
+                </div>
+                <p class="points">
+                    砲撃と近接攻撃を組み合わせた独自の戦術で、
+                    部位破壊に優れた性能を発揮します。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="switch-axe">
+            <h2 class="weapon-title">スラッシュアックス</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>零距離解放突き</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 9位</span>
+                </div>
+                <p class="points">
+                    剣モードと斧モードを使い分け、
+                    ゲージ管理をしながら大ダメージを狙います。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="charge-blade">
+            <h2 class="weapon-title">チャージアックス</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>超高出力属性解放斬り</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 10位</span>
+                </div>
+                <p class="points">
+                    ビンのチャージを溜めて強力な一撃を放ちます。
+                    GP（ガードポイント）の活用が重要です。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="insect-glaive">
+            <h2 class="weapon-title">操虫棍</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>空中コンボ</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 11位</span>
+                </div>
+                <p class="points">
+                    エキスを収集して能力を強化し、
+                    空中機動力を活かした立体的な攻撃が可能です。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="light-bowgun">
+            <h2 class="weapon-title">ライトボウガン</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>速射</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 12位</span>
+                </div>
+                <p class="points">
+                    機動力を活かしながら、
+                    状況に応じた弾を使い分けて戦います。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="heavy-bowgun">
+            <h2 class="weapon-title">ヘビィボウガン</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>特殊弾</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 13位</span>
+                </div>
+                <p class="points">
+                    強力な火力を誇る特殊弾を中心に、
+                    的確な弱点狙いで大ダメージを与えます。
+                </p>
+            </div>
+        </section>
+
+        <section class="weapon-section" id="bow">
+            <h2 class="weapon-title">弓</h2>
+            <div class="video-container">
+                <video src="./video/Monster Hunter Wilds_20250401114229.mp4"
+                    class="js-lazyload-video"
+                    muted playsinline loop controls autoplay></video>
+            </div>
+            <div class="action-info">
+                <h3>竜の一矢</h3>
+                <div class="dps-ranking">
+                    <span class="dps-number">DPS: 14位</span>
+                </div>
+                <p class="points">
+                    溜め段階を管理しながら、
+                    属性攻撃と通常攻撃を組み合わせて戦います。
+                </p>
+            </div>
+        </section>
+    </div>
+    <script src="./src/main.js" type="module"></script>
+</body>
+</html>
+
